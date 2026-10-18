@@ -1,0 +1,19 @@
+<! DOCTYPE html>
+<html>
+    <body>
+        <h1>Function Challenge </h1>
+        <p id="message">Click the button below!</p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <script>
+            // Task 1: Create a function
+            function showMessage() {
+            // Task 2: Use getElementById("message");
+            const msg = document.getElementById("message");
+            msg.textContent = "My function worked! getElementById() found this element!";
+            msg.style.color = "green";
+            }
+        </script>
+    </body>
+</html>
